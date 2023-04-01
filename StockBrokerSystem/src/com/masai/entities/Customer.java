@@ -30,7 +30,7 @@ public class Customer extends User implements Serializable {
 	@Override
 	public String toString() {
 		return "Customer [walletBalance=" + walletBalance + ", getWalletBalance()=" + getWalletBalance()
-				+ ", getUsreanme()=" + getUsreanme() + ", getPassword()=" + getPassword() + ", getEmail()=" + getEmail()
+				+ ", getUsreanme()=" + getUsername() + ", getPassword()=" + getPassword() + ", getEmail()=" + getEmail()
 				+ ", toString()=" + super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode()
 				+ "]";
 	}
