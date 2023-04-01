@@ -1,6 +1,7 @@
 package com.masai.entities;
 
 import java.io.Serializable;
+import java.util.Objects;
 
 public class Stock implements Serializable{
 	private int id;
@@ -98,7 +99,23 @@ public class Stock implements Serializable{
 		this.category = category;
 	}
 	
-	
+	@Override
+	public int hashCode() {
+		return Objects.hash(category, id, name, price, qty);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Stock other = (Stock) obj;
+		return Objects.equals(category, other.category) && id == other.id && Objects.equals(name, other.name)
+				&& Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price) && qty == other.qty;
+	}
 	
 	
 }
