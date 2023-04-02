@@ -22,7 +22,7 @@ public class StockServiceImpl implements StockService {
 			}
 
 		} else {
-			throw new StockException("Product List is empty");
+			throw new StockException("Stock List is empty");
 		}
 	}
 
@@ -36,11 +36,11 @@ public class StockServiceImpl implements StockService {
 				System.out.println("Stock deleted successfully");
 
 			} else {
-				throw new StockException("Product not found");
+				throw new StockException("Stock not found");
 			}
 
 		} else {
-			throw new StockException("Product list is empty");
+			throw new StockException("Stock list is empty");
 		}
 		
 	}
@@ -52,13 +52,13 @@ public class StockServiceImpl implements StockService {
 
 			if (stocks.containsKey(id)) {
 				stocks.put(id, st);
-				return "Product has successfully updated";
+				return "Stock has successfully updated";
 			} else {
-				throw new StockException("Product not found");
+				throw new StockException("Stock not found");
 			}
 
 		} else {
-			throw new StockException("Product list is empty");
+			throw new StockException("Stock list is empty");
 		}
 	}
 
