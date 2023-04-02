@@ -51,7 +51,7 @@ public class CustomerServiceImpl implements CustomerSrevice {
 			throws InvalidDetailsException, StockException {
 		// TODO Auto-generated method stub
 		if (products.size() == 0)
-			throw new StockException("Product list is empty");
+			throw new StockException("Stock list is empty");
 
 		if (products.containsKey(id)) {
 
