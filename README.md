@@ -1,5 +1,12 @@
-![image](https://user-images.githubusercontent.com/115461684/229427317-3c0553ba-1e9b-4906-8856-027913cee5d8.png)
-Stock Broker System
+![image](https://user-images.githubusercontent.com/115461684/229427817-3027b036-0475-44ba-bd2f-e0be470ae4ea.png)
+
+Master Trust Stock Broker System
+
+Description: 
+  The primary job of a stockbroker is to obtain buy and sell orders and execute them. Many market participants depend on stockbrokers' knowledge and expertise regarding the dynamics of the market to invest in securities. A stockbroker can work either individually or with a brokerage firm
+  
+Project Tech stack : Core JAVA
+IDE Used : Spring Tool Suit (STS)
 
 There are 2 users in the system:
 - Broker
