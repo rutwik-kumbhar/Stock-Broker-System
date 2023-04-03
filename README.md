@@ -20,9 +20,8 @@
 5. View consolidated report of a stock (means how many pieces of a stock sold, how
 many yet to be sold).
 6. Delete customer (means the total amount of all stocks should be credited to his
-wallet then set account inactive i.e. customer can only withdraw money)
-7. Delete stock (means the total amount for that stock should be credited to the
-customer’s wallet and then mark the stock deleted from the database)
+wallet then set account inactive.
+
 
 ## The Role of a Customer is:
 1. The Customer can sign-up. At the time of sign up first name, last name, username,
