@@ -1,5 +1,7 @@
 ![image](https://user-images.githubusercontent.com/115461684/229427817-3027b036-0475-44ba-bd2f-e0be470ae4ea.png)
 
+
+
 # Master Trust Stock Broker System 
 
 ## Description: 
@@ -7,6 +9,8 @@
   
 ## Project Tech Stack : Core JAVA
 ## IDE Used : Spring Tool Suit (STS)
+
+![image]("C:\Users\rutwi\OneDrive\Pictures\Screenshots\JavaProject-1.png")
 
 ## There are 2 users in the system:
 - Broker
