@@ -2,7 +2,7 @@
 
 
 
-# Master Trust Stock Broker System 
+# ** Master Trust Stock Broker System **
 
 ## Description: 
   A stock broker management system is a software application designed to help stock brokers manage their clients' portfolios and investments efficiently. The system is built using the Java programming language, and it aims to provide a comprehensive platform for stockbrokers to manage their clients' investment activities, including trading, account management, and reporting.
