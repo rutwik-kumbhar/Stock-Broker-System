@@ -3,7 +3,7 @@
 Master Trust Stock Broker System
 
 Description: 
-  The primary job of a stockbroker is to obtain buy and sell orders and execute them. Many market participants depend on stockbrokers' knowledge and expertise regarding the dynamics of the market to invest in securities. A stockbroker can work either individually or with a brokerage firm
+  A stock broker management system is a software application designed to help stock brokers manage their clients' portfolios and investments efficiently. The system is built using the Java programming language, and it aims to provide a comprehensive platform for stockbrokers to manage their clients' investment activities, including trading, account management, and reporting.
   
 Project Tech stack : Core JAVA
 IDE Used : Spring Tool Suit (STS)
