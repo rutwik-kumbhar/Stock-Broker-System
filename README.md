@@ -10,7 +10,7 @@
 ## Project Tech Stack : Core JAVA
 ## IDE Used : Spring Tool Suit (STS)
 
-![image]("C:\Users\rutwi\OneDrive\Pictures\Screenshots\JavaProject-1.png")
+
 
 ## There are 2 users in the system:
 - Broker
